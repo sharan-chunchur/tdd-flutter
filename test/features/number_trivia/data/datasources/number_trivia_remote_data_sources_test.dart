@@ -69,6 +69,8 @@ void main() {
 
     test("should throw server exception when response code is 404", () async{
 
+
+
       //arrange
       setUpHttpClientFailure404();
       //act
